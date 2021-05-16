@@ -42,3 +42,13 @@ mysql> select *From address_book;
 |  4 | Kalyan     | Kumar     | Andheri    | Mumbai    | Maharashtra | 530066 | 9882763845   | pl@p.com    | NULL | Friend |
 |  5 | Atik       | Singh     | Dharavi    | Mumbai    | Maharashtra | 530044 | 9494631888   | mlk@mln.com | NULL | Friend |
 +----+------------+-----------+------------+-----------+-------------+--------+--------------+-------------+------+--------+
+
+#UC10
+
+mysql> SELECT COUNT(type) FROM address_book;
++-------------+
+| COUNT(type) |
++-------------+
+|           4 |
++-------------+
+
